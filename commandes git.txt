@@ -1,0 +1,18 @@
+git clone <URL_DU_REPOSITORY>
+
+• 1. git add (Sélectionner)
+
+Prépare vos fichiers modifiés en les plaçant dans la zone d'index (staging area).
+	• Pour ajouter un fichier précis : git add nom_du_fichier.ext
+	• Pour ajouter tous les fichiers modifiés : git add .
+
+• 2. git commit (Valider)
+
+Enregistre vos modifications de manière définitive dans votre historique local en y associant un message explicatif.bash
+git commit -m "Mon message de commit clair et précis"
+Utilisez le code avec précaution.
+
+• 3. git push (Envoyer)
+Envoie vos commits locaux vers le repository distant (par exemple sur GitHub ou GitLab).
+	• Pour le premier envoi d'une branche : git push -u origin <nom_de_la_branche>
+	• Pour les envois suivants : git push
